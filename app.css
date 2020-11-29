@@ -1,0 +1,72 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.font-text {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, serif;
+}
+
+.font-main {
+  font-family: 'Amatic SC', cursive;
+}
+
+.font-menu {
+  font-family: 'Delius', cursive;
+}
+
+.font-title {
+  font-family: 'Dancing Script', cursive;
+}
+
+.header-title {
+  margin-bottom: 0px;
+}
+
+.sub-header {
+  padding-left: 0px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.navbar .navbar-collapse ul.navbar-nav li.nav-item {
+  padding: 0.5em 1.5em;
+}
+
+.navbar-light .nav-item a.green-text {
+  color: #7EC278;
+}
+
+.maint-content {
+  flex-grow: 1;
+}
+
+.bg-picture {
+  background-image: url(nature.jpg);
+  background-size: cover;
+}
+
+.bg-picture-2 {
+  background-image: url(nature-2.jpg);
+  background-size: cover;
+}
+
+.citation {
+  font-size: 1.5rem;
+}
+
+.maint-content,
+.footer-content {
+  margin-bottom: 0;
+}
+
+footer {
+  height: 50px;
+}
+
+footer ul li {
+  padding-left: 1rem;
+}
